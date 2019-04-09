@@ -1,0 +1,12 @@
+Edit file server.xml in server folder (workspace eclipse)
+
+<Host appBase="webapps" name="sontran.com" unpackWARs="true" autoDeploy="true">
+	<Alias>sontran.com</Alias>
+	<Context debug="0" docBase="realPathProject" path="" reloadable="true" />
+</Host>
+
+C:\Windows\System32\drivers\etc\hosts: edit file hosts: 127.0.0.1 sontran.com
+realPathProject: E:\Study\Spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\spring
+
+http://localhost:8080/spring/admin/category/index
+=> sontran.com:8080/admin/category/index
